@@ -1,0 +1,33 @@
+{
+    "name": "Shamba-SNI-EA-NodeJS",
+    "version": "0.1.0",
+    "author": "Syed Asad Kazmi",
+    "description": "Shamba-SNI External Adapter to be called through job specs via bridge",
+    "license": "MIT",
+    "scripts": {
+        "test": "node app.js",
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "@google-cloud/functions-framework": "^2.1.0",
+        "axios": "^0.24.0",
+        "dotenv": "^16.0.0",
+        "web3.storage": "^3.5.7",
+        "cors": "^2.8.5"
+    },
+    "devDependencies": {
+        "body-parser": "^1.19.0",
+        "chai": "^4.2.0",
+        "eslint": "^7.0.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "express": "^4.17.0",
+        "mocha": "^7.1.2"
+    },
+    "engines": {
+        "node": "16.x"
+    }
+}
