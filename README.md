@@ -11,7 +11,7 @@
     **end_date**: `2015-01-07`<br>
     **geometry**: `[[1, "[[[34.73409520485825,-0.8926843839661274],[34.73409520485825,-1.8668108116699216],[35.74968860447311,-1.8668108116699216],[35.74968860447311,-0.8926843839661274],[34.73409520485825,-0.8926843839661274]]]"]]`
 
-4. Currently, only the first 10 values are being filtered out (due to the threshold of bytes32 encrypted response of the Chainlink's jobSpecs). But all the data is getting stored onto IPFS, and the corresponsing `cid` can also be retrieved using the `getCid()` and `getLatestCid()` functions of the smart contract accordingly.
+4. Currently, only the first 10 values are being filtered out from the API interacting with the SNI database (due to the threshold of bytes32 encrypted response of the Chainlink's jobSpecs). But, all the data is getting stored onto IPFS, and the corresponsing `cid` can also be retrieved using the `getCid()` and `getLatestCid()` functions of the smart contract accordingly.
 
 5. In case of **LAP**, there are a total of 1453 records. So, the first 10 *dataId* and *recordWhat* values are being fetched. 
 
