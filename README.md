@@ -1,4 +1,4 @@
-# Shamba-SNI Lions Ambassador Patrol (LAP) and Human Wildlife Control (HWC) Data Consumer Smart Contract and External Adapter
+# Shamba-SNI Lions Ambassador Patrol (LAP) and Human Wildlife Conflict (HWC) Data Consumer Smart Contract and External Adapter
 
 1. **ShambaSNIConsumer** is a smart contract designed to request the LAP and HWC data from the **SNI Database** via the Chainlink job specs that are invoking the [Shamba-SNI External Adater Bridge](https://europe-west6-shamba-oracle-services.cloudfunctions.net/shamba-sni-external-adapter) powered by **Shamba Geospatial Oracle**.
 
